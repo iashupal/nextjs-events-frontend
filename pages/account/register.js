@@ -47,7 +47,7 @@ export default function RegisterPage() {
                        <label htmlFor="confirmPassword">Confirm Password</label>
                        <input type="password" id="confirmPassword" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}/>
                    </div>
-                   <input type="submit" value="Login" className="btn"/>
+                   <input type="submit" value="Register" className="btn"/>
                </form>
                <p>Already have an account?</p>
                <Link href="/account/login">Register</Link>
